@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = findViewById(R.id.textView);
-        textView.setText("Hola Alumnos ISPC");
+        textView.setText("Hola Alumnos TSDWAD");
 
     }
 }
