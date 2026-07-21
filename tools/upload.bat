@@ -28,7 +28,7 @@ echo       ABRIENDO APLICACION
 echo ========================================
 echo.
 
-adb shell monkey -p com.example.app_demo 1
+"%ANDROID_HOME%\platform-tools\adb.exe" shell monkey -p com.example.app_demo 1
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
