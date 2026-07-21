@@ -1,0 +1,62 @@
+# ==========================================
+# Android / Gradle
+# ==========================================
+
+# Gradle
+.gradle/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Android captures
+captures/
+
+# ==========================================
+# VS Code
+# ==========================================
+
+# Mantener .vscode/settings.json
+# Mantener .vscode/tasks.json
+# Mantener .vscode/extensions.json
+#
+# No ignoramos .vscode completo porque forma
+# parte de la configuración educativa del proyecto.
+
+# ==========================================
+# Sistema operativo
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+
+# ==========================================
+# Java
+# ==========================================
+
+*.class
+
+# ==========================================
+# Temporales
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

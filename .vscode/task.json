@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Android: Compilar",
+            "type": "shell",
+            "command": "${workspaceFolder}\\tools\\compile.bat",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Android: Instalar",
+            "type": "shell",
+            "command": "${workspaceFolder}\\tools\\upload.bat",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Android: Ejecutar",
+            "type": "shell",
+            "command": "${workspaceFolder}\\tools\\run.bat",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
