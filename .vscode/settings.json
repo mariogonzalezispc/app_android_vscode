@@ -1,0 +1,121 @@
+{
+    "chat.disableAIFeatures": true,
+
+    // ============================================================
+    // WORKBENCH
+    // ============================================================
+
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "none",
+
+
+    // ============================================================
+    // EDITOR
+    // ============================================================
+
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.smoothScrolling": false,
+    "editor.codeLens": false,
+    "editor.renderWhitespace": "selection",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+
+
+    // ============================================================
+    // ARCHIVOS
+    // ============================================================
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/build": true
+    },
+
+    "search.exclude": {
+        "**/.gradle": true,
+        "**/build": true
+    },
+
+
+    // ============================================================
+    // JAVA
+    // ============================================================
+
+    // Compilación automática del proyecto Java
+    "java.autobuild.enabled": true,
+
+    // Análisis de nullabilidad
+    "java.compile.nullAnalysis.mode": "automatic",
+
+    // Actualizar configuración cuando cambia Gradle
+    "java.configuration.updateBuildConfiguration": "automatic",
+
+    // Desactivar CodeLens innecesario para ahorrar recursos
+    "java.referencesCodeLens.enabled": false,
+    "java.implementationsCodeLens.enabled": false,
+
+    // ============================================================
+    // JAVA 17 - JDK PRINCIPAL
+    // ============================================================
+
+    // Java 17 es el JDK predeterminado para los proyectos Java
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Java\\jdk-17",
+            "default": true
+        }
+    ],
+
+    // Java Language Server utiliza JDK 17
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17",
+
+    // Gradle utiliza JDK 17
+    "java.import.gradle.java.home": "C:\\Program Files\\Java\\jdk-17",
+
+    // Soporte Android
+    "java.jdt.ls.androidSupport.enabled": "on",
+
+    // Mostrar advertencia en lugar de error por classpath incompleto
+    "java.errors.incompleteClasspath.severity": "warning",
+
+
+    // ============================================================
+    // GRADLE
+    // ============================================================
+
+    // Importar proyectos Gradle
+    "java.import.gradle.enabled": true,
+
+    // Usar el Gradle Wrapper del proyecto
+    "java.import.gradle.wrapper.enabled": true,
+
+
+    // ============================================================
+    // TERMINAL
+    // ============================================================
+
+    "terminal.integrated.scrollback": 1000,
+
+
+    // ============================================================
+    // GIT
+    // ============================================================
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+
+    // ============================================================
+    // TELEMETRÍA
+    // ============================================================
+
+    "redhat.telemetry.enabled": false,
+
+    // Desactivar soporte Kotlin porque el proyecto utiliza Java
+    "java.jdt.ls.kotlinSupport.enabled": false
+}
